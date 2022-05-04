@@ -9,7 +9,7 @@ valoranterior = 1
 for i in range (0,16):
     
     if((i%2)==0):
-        valor += (e**-x)/factorial(i)*(h**i)
+        valor += (e**-x)/factorial(i)*(h**i) 
     if((i%2)!=0):
         valor -= (e**-x)/factorial(i)*(h**i)
     ea = abs((valor-valoranterior)/valoranterior)*100
