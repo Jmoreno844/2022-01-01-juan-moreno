@@ -31,7 +31,7 @@ def gaussJordan(a, b):
                         aAux[i]=aAux[x]
                         aAux[x]=temp1
                         temp1 = bAux[i]
-                        bAux[i]=bAux[x]
+                        bAux[i]=bAux[x] 
                         bAux[x]=temp1
                         break
         for j in range(n):
