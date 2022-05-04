@@ -12,7 +12,7 @@ for a in range (tamaño):
     print("Ingrese el valor",(a+1),"de y")
     y.append(float(input()))
     
-    
+     
 xsumat = sum(x)
 xmedia = xsumat/tamaño
 
